@@ -1,0 +1,89 @@
+---
+outdir_dir: "."
+title: "My first notebook"
+author: "Maja Nackenhorst"
+date: "11-12-2020"
+output:
+  html_document:
+    toc: true
+    toc_depth: 3
+    toc_float: true
+---
+
+<!-- this is a comment -->
+
+# Inline text formatting {#heading1}
+\
+to make text bold use **doubleasterisk** or __double underscore__
+
+to make text italic use *asterisk* or _underscore_
+
+to make text superscript use ^carets^
+
+to make text subscript use ~tilde~
+
+to mark text as inline code use `backticks`
+
+to make text strikethrough use ~~double tilde~~ 
+
+
+#line breaks
+
+\
+
+#links
+
+for weblinks: [text here](link here)
+
+for indocument links: [here](#heading1)
+
+#footnotes
+
+to indicate a footnote: [^1] and second footnote [^2]
+
+[^1]: this is the first footnote
+[^2]: this is the second footnote
+
+#Lists
+
+#### ordered lists:
+
+1. item 1
+2. item 2
+    a. item 2.a
+        i. item 2.a.i
+    b. item 2.b
+
+3. item 3
+
+### unordered lists (*, +, -):
+
+* item 1
+    * item1.1
+        * item 1.1.1
+* item 2
+
+### Tasks lists (only renders properly on github)
+
+- [ ] unchecked item
+- [x] checked item
+
+# inserting figures (that were safed somewhere)
+
+load image into proper folder
+
+![image caption- R logo](img/download.png)
+
+# Blocks
+
+> example of a block
+>
+> some text
+
+## code blocks
+```
+print("Hello World!")
+
+```
+
+#Table of context
